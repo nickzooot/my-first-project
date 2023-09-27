@@ -15,16 +15,34 @@
 
 .. class:: center
 
-    :Название исследуемой задачи: Мое название работы
-    :Тип научной работы: M1P/НИР/CoIS
-    :Автор: Имя Отчество Фамилия
-    :Научный руководитель: степень, Фамилия Имя Отчество
-    :Научный консультант(при наличии): степень, Фамилия Имя Отчество
+    :Название исследуемой задачи: Детекция эмоций. Сравнение и анализ классических методов машинного обучения и методов обучения с трансформерами.
+    :Тип научной работы: M1P
+    :Автор: Панин Никита Александрович 
+    :Научный руководитель: д.ф-м.н, профессор, Воронцов Константин Вячеславович
+    :Научный консультант(при наличии): -
 
 Abstract
 ========
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+В работе была рассмотрена задача детекции эмоций на датасете, в ос-
+нову которого вошел WASSA датасет из твитов для детекции эмоций.
+На выходе алгоритма классификации эмоций в твитах была одна из 5
+эмоций: нейтральная эмоция, грусть, страх, радость, гнев. Были при-
+менены различные методы "классического" машинного обучения, такие
+как, SVM, логистическая регрессия, метод k-ближайших соседей и на-
+ивный байесовский классификатор. Также классификация эмоций была
+проведена с помощью файн-тюнинга нескольких версий BERT. Основной
+целью работы являлось проведение сравнительного анализа для класси-
+ческих моделей машинного обучения(wKNN, Multinomial Bayes Classifier,
+Logistic Regression, SVM) и для моделей глубокого обучения (в качестве
+предобученной модели брались BERT, RoBERTa, BERTweet и их large-
+версии)
+В результате исследования было показано, что по метрике accuracy
+для моделей классического обучения c tf-idf векторизацией текстов луч-
+ше всего работает SVM с RBF ядром (accuracy ≈ 0.8387 на тесте), а
+наиболее качественные результаты получаются с помощью предложен-
+ной в исследовании модели с предобученным BERTweet (accuracy ≈0.88
+на тесте)м.
 
 Research publications
 ===============================
