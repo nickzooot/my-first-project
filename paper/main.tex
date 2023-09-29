@@ -16,22 +16,18 @@
 
 
 
-\title{A template for the \emph{arxiv} style}
+\title{Детекция эмоций. Сравнение и анализ классических методов машинного обучения и методов обучения с трансформерами}
 
-\author{ David S.~Hippocampus\thanks{Use footnote for providing further
-		information about author (webpage, alternative
-		address)---\emph{not} for acknowledging funding agencies.} \\
-	Department of Computer Science\\
-	Cranberry-Lemon University\\
-	Pittsburgh, PA 15213 \\
-	\texttt{hippo@cs.cranberry-lemon.edu} \\
+\author{ Панин Никита Александрович \\
+        Факультет вычислительной математики и кибернетики \\
+        МГУ им. Ломоносова \\
+        \texttt{s02200456@gse.cs.msu.ru} \\
 	%% examples of more authors
 	\And
-	Elias D.~Striatum \\
-	Department of Electrical Engineering\\
-	Mount-Sheikh University\\
-	Santa Narimana, Levand \\
-	\texttt{stariate@ee.mount-sheikh.edu} \\
+	д.ф-м.н., профессор, Воронцов Константин Вячеславович \\
+        Факультет вычислительной математики и кибернетики \\
+        МГУ им. Ломоносова \\
+        \texttt{vokov@forecsys.ru} \\
 	%% \AND
 	%% Coauthor \\
 	%% Affiliation \\
@@ -48,6 +44,7 @@
 	%% Address \\
 	%% \texttt{email} \\
 }
+
 \date{}
 
 \renewcommand{\shorttitle}{\textit{arXiv} Template}
@@ -56,103 +53,51 @@
 %%% Once the PDF is generated, you can check the metadata with
 %%% $ pdfinfo template.pdf
 \hypersetup{
-pdftitle={A template for the arxiv style},
+pdftitle={Детекция эмоций. Сравнение и анализ классических методов машинного обучения и методов обучения с трансформерами},
 pdfsubject={q-bio.NC, q-bio.QM},
-pdfauthor={David S.~Hippocampus, Elias D.~Striatum},
-pdfkeywords={First keyword, Second keyword, More},
+pdfauthor={Воронцов Константин Вячеславович,Панин Никита Александрович },
+pdfkeywords={},
 }
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-	\lipsum[1]
+	В работе была рассмотрена задача детекции эмоций на датасете, в основу которого вошел WASSA датасет из твитов для детекции эмоций. На выходе алгоритма классификации эмоций в твитах была одна из 5 эмоций: нейтральная эмоция, грусть, страх, радость, гнев. Были применены различные методы "классического" машинного обучения, такие как, SVM, логистическая регрессия, метод k-ближайших соседей и наивный байесовский классификатор. Также классификация эмоций была проведена с помощью файн-тюнинга нескольких версий BERT. Основной целью работы являлось проведение сравнительного анализа для классических моделей машинного обучения(wKNN, Multinomial Bayes Classifier, Logistic Regression, SVM) и для моделей глубокого обучения (в качестве предобученной модели брались BERT, RoBERTa, BERTweet и их large-версии). В результате исследования было показано, что по метрике accuracy для моделей классического обучения c tf-idf векторизацией текстов лучше всего работает SVM с RBF ядром (accuracy ≈ 0.8387 на тесте), а наиболее качественные результаты получаются с помощью предложенной в исследовании модели с предобученным BERTweet (accuracy ≈0.88 на тесте).
 \end{abstract}
 
 
-\keywords{First keyword \and Second keyword \and More}
+\keywords{Детекция эмоций \and  NLP}
 
-\section{Introduction}
-\lipsum[2]
-\lipsum[3]
+\section{Введение}
+В нашем эмоционально насыщенном мире разумно стремиться к пониманию тонких чувств и настроений, выраженных в текстах. С развитием машинного обучения и искусственного интеллекта, возникает возможность автоматизировать и усовершенствовать процессы анализа и интерпретации текстов, выявляя эмоции, ассоциированные с ними. Детекция эмоций в текстах стала актуальным направлением исследований в области обработки естественного языка (NLP) и анализа тональности и привлекает все большее внимание в последние два десятилетия~\cite{affectdetectionintexts, jiawenfuji}. Термины "распознавание эмоций"({\itshape{emotion detection}}) и  "анализ тональности"({\itshape{sentiment analysis}}) часто используются как взаимозаменяемые, хотя между этими двумя понятиями существуют очевидные различия~\cite{yadollahi}. Анализ тональности в основном измеряет субъективное отношение с точки зрения полярности настроения: нейтральное, положительное, негативное. Выявление эмоций предполагает идентификацию более детальных эмоциональных состояний, например,  счастье, гнев, страх, удивление. 
 
-\section{Headings: first level}
-\label{sec:headings}
-
-\lipsum[4] See Section \ref{sec:headings}.
-
-\subsection{Headings: second level}
-\lipsum[5]
-\begin{equation}
-	\xi _{ij}(t)=P(x_{t}=i,x_{t+1}=j|y,v,w;\theta)= {\frac {\alpha _{i}(t)a^{w_t}_{ij}\beta _{j}(t+1)b^{v_{t+1}}_{j}(y_{t+1})}{\sum _{i=1}^{N} \sum _{j=1}^{N} \alpha _{i}(t)a^{w_t}_{ij}\beta _{j}(t+1)b^{v_{t+1}}_{j}(y_{t+1})}}
-\end{equation}
-
-\subsubsection{Headings: third level}
-\lipsum[6]
-
-\paragraph{Paragraph}
-\lipsum[7]
+Эмоции имеют множество применений в разных сферах.  В маркетинге анализ предпочтений потребителей помогает улучшить бизнес-стратегии~\cite{cambria}. В социальных сетях распознавание агрессивных эмоций  помогает выявить потенциальных преступников или террористов~\cite{cheong}. Мониторинг эмоций в реальном времени на основе данных социальных сетей может помочь в профилактике самоубийств~\cite{ren}. Определение эмоций во время кризисов или катастроф позволяет понять чувства людей по отношению к конкретной ситуации, что способствует управлению в кризис и принятию важных решений~\cite{ahmad}. 
 
 
+\subsection{Постановка задачи}
+В  данной работе была рассмотрена задача детекции эмоций на датасете, в основу которого вошел WASSA датасет из твитов для детекции эмоций~\cite{wassa}. На выходе алгоритма классификации эмоций в твитах была одна из 5 эмоций: нейтральная эмоция, грусть, страх, радость, гнев. Были применены различные методы "классического" \ машинного обучения, такие как, SVM, логистическая регрессия, метод k-ближайших
+соседей и наивный байесовский классификатор. Также классификация эмоций была проведена с помощью файн-тюнинга нескольких версий BERT. За основу бралась статья~\cite{albu}. Основной целью работы являлось проведение сравнительного анализа полученных моделей. Также в работе предлагается сравнение новых моделей, таких как large-версии бертов, логистическая регрессия, wKNN, SVM с другими ядрами, с результатами из основной статьи.
 
-\section{Examples of citations, figures, tables, references}
-\label{sec:others}
-
-\subsection{Citations}
-Citations use \verb+natbib+. The documentation may be found at
-\begin{center}
-	\url{http://mirrors.ctan.org/macros/latex/contrib/natbib/natnotes.pdf}
-\end{center}
-
-Here is an example usage of the two main commands (\verb+citet+ and \verb+citep+): Some people thought a thing \citep{kour2014real, hadash2018estimate} but other people thought something else \citep{kour2014fast}. Many people have speculated that if we knew exactly why \citet{kour2014fast} thought this\dots
-
-\subsection{Figures}
-\lipsum[10]
-See Figure \ref{fig:fig1}. Here is how you add footnotes. \footnote{Sample of the first footnote.}
-\lipsum[11]
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.5\textwidth]{../figures/log_reg_cs_exp.eps}
-	\caption{Sample figure caption.}
-	\label{fig:fig1}
-\end{figure}
-
-\subsection{Tables}
-See awesome Table~\ref{tab:table}.
-
-The documentation for \verb+booktabs+ (`Publication quality tables in LaTeX') is available from:
-\begin{center}
-	\url{https://www.ctan.org/pkg/booktabs}
-\end{center}
+\subsection{Существующие решения}
 
 
-\begin{table}
-	\caption{Sample table title}
-	\centering
-	\begin{tabular}{lll}
-		\toprule
-		\multicolumn{2}{c}{Part}                   \\
-		\cmidrule(r){1-2}
-		Name     & Description     & Size ($\mu$m) \\
-		\midrule
-		Dendrite & Input terminal  & $\sim$100     \\
-		Axon     & Output terminal & $\sim$10      \\
-		Soma     & Cell body       & up to $10^6$  \\
-		\bottomrule
-	\end{tabular}
-	\label{tab:table}
-\end{table}
-
-\subsection{Lists}
-\begin{itemize}
-	\item Lorem ipsum dolor sit amet
-	\item consectetur adipiscing elit.
-	\item Aliquam dignissim blandit est, in dictum tortor gravida eget. In ac rutrum magna.
-\end{itemize}
+Ванг и др.~\cite{wang} создали большой набор данных твитов, используя хэштеги эмоций. Они применили два различных классификатора, логистическую регрессию и Naïve Bayes, чтобы исследовать эффективность различных признаков, таких как n-граммы, лексикон эмоций и информация о части речи, для задачи идентификации эмоций. Наибольшая достигнутая точность составила 0,6557.
 
 
-\bibliographystyle{unsrtnat}
+Мохаммад~\cite{mohammad} создал корпус твитов, маркированных эмоциями, используя хэштеги. Он применил бинарные SVM, по одному для каждой из шести основных эмоций Экмана~\cite{ekman}, и использовал наличие или отсутствие униграмм и биграмм в качестве бинарных признаков. Бинарные классификаторы смогли предсказать эмоции со сбалансированным F1-score 0,499.
+
+
+Янссенс и др.~\cite{janssens} исследовали влияние использования слабых меток по сравнению с сильными метками на распознавание эмоций для корпуса, состоящего из 341 931 твита. Слабые метки были созданы путем использования хэштегов твитов, а сильные метки - с помощью краудсорсинга. Характеристики, извлеченные путем объединения n-грамм и TF-IDF (Term Frequency-Inverse Document Frequency), были применены к пяти алгоритмам классификации: Стохастический градиентный спуск, SVM, Naïve Bayes, Nearest Centroid и Ridge. Результаты показали снижение F1-score на 9,25\% при использовании слабых меток.
+
+К сожалению, классические методы машинного обучения не могут учесть последовательную природу текста, поэтому некоторые модели глубокого обучения, такие как рекуррентные нейронные сети (RNN), LSTM~\cite{hochreiter} и GRU~\cite{cho}, стали более перспективными в определении эмоций в тексте~\cite{kratzwald, chatterjee, xu}. Хотя рекуррентные модели принимают во внимание последовательный характер текста и показывают передовые результаты для различных задач NLP, они обладают некоторыми слабостями: медленная скорость, необходимость обучения с нуля и ограниченная способность улавливать долгосрочные зависимости в тексте~\cite{hochreiter}. Также требуется большой объем размеченных данных для обучения. Подготовка большого объема размеченных данных является трудоемкой и дорогостоящей процедурой, и именно здесь вступает в игру перенос обучения(transfer learning). С его помощью можно добиться лучших результатов по сравнению с традиционными моделями глубокого обучения с гораздо меньшим количеством обучающей выборки. Предварительно обученные языковые модели, такие как BERT~\cite{devlin} (Bidirectional Encoder Representations from Transformers) и его варианты, OpenAI GPT (Generative Pre-trained Transformer)~\cite{radford} и Transformer-XL~\cite{dai}, получили широкое распространение в различных задачах NLP и продемонстрировали впечатляющие результаты.
+
+ Некоторые работы используют предварительно обученные языковые модели для классификации эмоций или тональности в тексте. Например, исследование~\cite{prottasha} использует BERT в качестве слоя эмбеддинга, после которого выводы передаются через слои CNN и BiLSTM для анализа настроений на бенгальском языке.
+
+
+
+
+\bibliographystyle{plain}
 \bibliography{references}
 
 \end{document}
