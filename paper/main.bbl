@@ -1,0 +1,207 @@
+\begin{thebibliography}{10}
+
+\bibitem{hochreiter1}
+{ Hochreiter S, Schmidhuber J}.
+\newblock Long short-term memory.
+\newblock {\em Neural Comput 9(8)}, pages 1735--1780, 1997.
+
+\bibitem{janssens}
+{ O. Janssens, S. Verstockt, E. Mannens, S. Van Hoecke, and R. Van de Walle}.
+\newblock Influence of weak labels for emotion recognition of tweets.
+\newblock In {\em {In Prasath R., O’Reilly P., Kathirvalavakumar T. (Eds.),
+  Mining Intelligence and Knowledge Exploration, Springer}}, pages 108--118,
+  2014.
+
+\bibitem{xu}
+{ Xu G, Li W, Liu J }.
+\newblock A social emotion classification approach using multi-model fusion.
+\newblock In {\em Future Generat Comput Syst 102}, pages 347--356, 2020.
+
+\bibitem{yadollahi}
+{A. Yadollahi, A. G. Shahraki, and O. R. Zaiane}.
+\newblock Current state of text sentiment analysis from opinion to emotion
+  mining.
+\newblock In {\em ACM Comput. Surv., vol. 50, no. 2}, page 1–33, Jan. 2017.
+
+\bibitem{cambria}
+E.~Cambria.
+\newblock Affective computing and sentiment analysis.
+\newblock In {\em IEEE Intell. Syst., vol. 31, no. 2}, pages 102--107,
+  Mar./Apr. 2016.
+
+\bibitem{chatterjee}
+{Chatterjee A, Gupta U, Chinnakotla MK, Srikanth R, Galley M, Agrawal P}.
+\newblock Understanding emotions in text using deep learning and big data.
+\newblock In {\em Comput Human Behav 93}, page 309–317, 2019.
+
+\bibitem{cheong}
+M.~Cheong and V.~C.~S. Lee.
+\newblock A microblogging-based approach to terrorism informatics: Exploration
+  and chronicling civilian sentiment and response to terrorism events via
+  twitter.
+\newblock In {\em {Information Systems Frontiers, vol. 13, no. 1}}, Mar. 2011.
+
+\bibitem{chingmuankin}
+Chingmuankim and Prof.Rajni Jindal.
+\newblock A comparative study of naive bayes classifierswith improved
+  techniqueon text classification.
+
+\bibitem{cho}
+{Cho K, Van Merriënboer B, Gulcehre C, Bahdanau D, Bougares F, Schwenk H,
+  Bengio Y }.
+\newblock Learning phrase representations using rnn encoder-decoder for
+  statistical machine translation.
+\newblock In {\em Conference on Empirical Methods in Natural Language
+  Processingf}. EMNLP, 2014.
+
+\bibitem{bertweet}
+{D. Q. Nguyen, T. Vu, and A. T. Nguyen}.
+\newblock Bertweet: A pre-trained language model for english tweets.
+\newblock In {\em In Proc. of the 2020 Conference on Empirical Methods in
+  Natural Language Processing: System Demonstrations}, pages 9--14, Nov. 2020.
+
+\bibitem{dai}
+{Dai Z, Yang Z, Yang Y, Carbonell J, Le QV, Salakhutdinov R }.
+\newblock Transformer-xl: Attentive language models beyond a fixed-length
+  context.
+\newblock In {\em Associat Comput Linguist}, 2019.
+
+\bibitem{jiawenfuji}
+Jiawen Deng and Fuji Ren.
+\newblock A survey of textual emotion recognition and its challenges.
+\newblock 2021.
+
+\bibitem{devlin}
+{Devlin J, Chang M, Lee K, Toutanova K }.
+\newblock Bert: pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In {\em Association for Computational Linguistics}, 2018.
+
+\bibitem{dudani}
+Sahibsingh~A Dudani.
+\newblock The distance-weighted k-nearest-neighbor rule.
+\newblock In {\em {IEEE Transactions on Systems, Man, and Cybernetics}}, pages
+  (4):325--327, 1976.
+
+\bibitem{ekman}
+P.~Ekman.
+\newblock An argument for basic emotions, cognition and emotion.
+\newblock pages 169--200, 1992.
+
+\bibitem{ren}
+{F. Ren, X. Kang, and C. Quan}.
+\newblock Examining accumulated emoional traits in suicide blogs with an
+  emotion topic model.
+\newblock In {\em {IEEE J. Biomed. Health Inform., vol. 20, no. 5}}, Sep. 2016.
+
+\bibitem{saif}
+{H. Saif, M. Fernandez, Y. He, and H. Alani}.
+\newblock {On Stopwords, Filtering and Data Sparsity for Sentiment Analysis of
+  Twitter}.
+\newblock In {\em {In Proc. of the Ninth International Conference on Language
+  Resources and Evaluation (LREC’14), Reykjavik, Iceland}}, pages 810--817,
+  2014.
+
+\bibitem{huang}
+Anna Huang.
+\newblock Similarity measures for text document clustering.
+\newblock In {\em {In Proceedings of the sixth new zealand computer science
+  research student conference (NZCSRSC2008), Christchurch, New Zealand}}, pages
+  {volume 4, pages 9–56}, 2008.
+
+\bibitem{albu}
+{Ionut-Alexandru ALBU, Stelian SPINU}.
+\newblock Emotion detection from tweets using a bert and svm ensemble model.
+\newblock 2022.
+
+\bibitem{koppel}
+M.~Koppel and J.~Schler.
+\newblock The importance of neutral examples for learning sentiment.
+\newblock In {\em {Computational Intelligence, vol. 22, no. 2}}, pages
+  100--109, 2006.
+
+\bibitem{kratzwald}
+{Kratzwald B, Ilić S, Kraus M, Feuerriegel S, Prendinger H}.
+\newblock Deep learning for affective computing: Text-based emotion recognition
+  in decision support.
+\newblock In {\em Decision Support Syst 115}, page 24–35, 2018.
+
+\bibitem{mohammad}
+S.~M. Mohammad.
+\newblock Emotional tweets.
+\newblock {\em {In Proc. of the First Joint Conference on Lexical and
+  Computational Semantics - Volume 1: Proceedings of the Main Conference and
+  the Shared Task, and Volume 2: Proceedings of the Sixth International
+  Workshop on Semantic Evaluation}}, pages 246--255, 2012.
+
+\bibitem{wassa}
+S.~M. Mohammad and F.~Bravo-Marquez.
+\newblock Wassa-2017 shared task on emotion intensity.
+\newblock {\em {In Proc. of the 8th Workshop on Computational Approaches to
+  Subjectivity, Sentiment and Social Media Analysis, Copenhagen, Denmark}},
+  pages 34--49, 2017.
+
+\bibitem{prottasha}
+{Prottasha NJ, Sami AA, Kowsher M, Murad SA, Bairagi AK, Masud M, Baz M }.
+\newblock Transfer learning for sentiment analysis using bert based supervised
+  fine-tuning.
+\newblock 2022.
+
+\bibitem{radford}
+{Radford A, Narasimhan K, Salimans T, Sutskever I}.
+\newblock Improving language understanding by generative pre-training.
+\newblock 2018.
+
+\bibitem{hochreiter2}
+Hochreiter S.
+\newblock The vanishing gradient problem during learning recurrent neural nets
+  and problem solutions.
+\newblock In {\em {Int J Uncertainty, Fuzziness Knowl-Based Syst 6(02)}}, pages
+  107--116, 1998.
+
+\bibitem{affectdetectionintexts}
+C.~Strapparava and R.~Mihalcea.
+\newblock Affect detection in texts 13.
+\newblock In {\em The Oxford Handbook of Affective Computing}, page 184–216,
+  2015.
+
+\bibitem{borovicka}
+{T. Borovicka, M. Jirina Jr., P. Kordik, and M. Jirina}.
+\newblock Selecting representative data sets.
+\newblock In {\em In Karahoca A. (Ed.), Advances in Data Mining Knowledge
+  Discovery and Applications, IntechOpen}, pages 43--70, 2012.
+
+\bibitem{wang}
+{W. Wang, L. Chen, K. Thirunarayan, and A. P. Sheth}.
+\newblock Harnessing twitter ‘big data’ for automatic emotion
+  identification.
+\newblock {\em {In Proc. of the 2012 International Conference on Privacy,
+  Security, Risk and Trust and 2012 International Conference on Social
+  Computing}}, pages 587--592, 2012.
+
+\bibitem{wolny}
+W.~Wolny.
+\newblock Emotion analysis of twitter data that use emoticons and emoji
+  ideograms.
+\newblock In {\em {Information Systems Development: Complexity in Information
+  Systems Development (ISD2016 Proceedings), Katowice, Poland}}, pages
+  476--483, 2016.
+
+\bibitem{roberta}
+{Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer
+  Levy, Mike Lewis, Luke Zettlemoyer†, Veselin Stoyanov}.
+\newblock Roberta: A robustly optimized bert pretraining approach.
+
+\bibitem{yonghui}
+{Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi}.
+\newblock Google’s neural machine translation system: Bridging the gap
+  between human and machine translation.
+\newblock 2016.
+
+\bibitem{ahmad}
+{Z. Ahmad, R. Jindal, A. Ekbal, and P. Bhattachharyya}.
+\newblock Borrow from rich cousin: Transfer learning for emotion detection
+  using cross lingual embedding.
+\newblock In {\em Expert Syst. Appl., vol. 139}, Jan. 2020.
+
+\end{thebibliography}

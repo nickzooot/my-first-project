@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--empty journal in chingmuankin
+Warning--empty year in chingmuankin
+Warning--empty journal in jiawenfuji
+Warning--empty booktitle in ekman
+Warning--empty journal in albu
+Warning--empty booktitle in prottasha
+Warning--empty booktitle in radford
+Warning--empty journal in roberta
+Warning--empty year in roberta
+Warning--empty journal in yonghui
+You've used 33 entries,
+            2118 wiz_defined-function locations,
+            664 strings with 9860 characters,
+and the built_in function-call counts, 11436 in all, are:
+= -- 1140
+> -- 267
+< -- 20
++ -- 119
+- -- 78
+* -- 506
+:= -- 1631
+add.period$ -- 98
+call.type$ -- 33
+change.case$ -- 138
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 651
+empty$ -- 1094
+format.name$ -- 78
+if$ -- 2689
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 33
+newline$ -- 166
+num.names$ -- 66
+pop$ -- 240
+preamble$ -- 1
+purify$ -- 105
+quote$ -- 0
+skip$ -- 549
+stack$ -- 0
+substring$ -- 745
+swap$ -- 273
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 132
+warning$ -- 10
+while$ -- 102
+width$ -- 35
+write$ -- 341
+(There were 10 warnings)
