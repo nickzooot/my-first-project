@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1698361086 "main.aux" "main.bbl" "main" 1698361145
+["bibtex main"] 1698361086 "main.aux" "main.bbl" "main" 1699003052
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1698361144 10471 9340341b18ea8f398410fe0653390057 "pdflatex"
+  "main.aux" 1699003052 10471 9340341b18ea8f398410fe0653390057 "pdflatex"
   "references.bib" 1698360093 8812 93f7dc644051d0d1a6f8897c0d9a9f9e ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1698361141 "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.tex" "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.pdf" "main" 1698361145
+["pdflatex"] 1699003049 "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.tex" "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.pdf" "main" 1699003052
   "/Users/nickpan/Library/texlive/2021/texmf-var/fonts/tfm/lh/lh-t2a/larm0500.tfm" 1668521699 3252 bc0f8cc163ba94bbce20e59f671a255d ""
   "/Users/nickpan/Library/texlive/2021/texmf-var/fonts/tfm/lh/lh-t2a/larm0600.tfm" 1695927023 3248 7c0b9d76a2cd84ed06764a4c6eea5de4 ""
   "/Users/nickpan/Library/texlive/2021/texmf-var/fonts/tfm/lh/lh-t2a/larm0700.tfm" 1665738150 3256 b15a2ce2310c0038b96c5235b038f0eb ""
@@ -15,8 +15,8 @@
   "/Users/nickpan/Library/texlive/2021/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1643776281 3240 c2435f2b5cd66d4930bc29b8df87967e ""
   "/Users/nickpan/Library/texlive/2021/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1665696415 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/Users/nickpan/Library/texlive/2021/texmf-var/fonts/tfm/lh/lh-t2a/latt1000.tfm" 1695927018 1272 55f67101730a20777decd892fb4b4e3e ""
-  "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.aux" 1698361144 10471 9340341b18ea8f398410fe0653390057 ""
-  "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.tex" 1698361141 50121 2d9de86fb549c8a68b0c4727e63bed8a ""
+  "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.aux" 1699003052 10471 9340341b18ea8f398410fe0653390057 ""
+  "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.tex" 1699003049 50124 01957c3c7278af73731163306390a8ae ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -161,10 +161,10 @@
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1643031511 2724735 05e8c4f14d7ef49ae63c0c4551938275 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "arxiv.sty" 1696550913 7670 c0de733298f8892371397a9b79acf59b ""
-  "main.aux" 1698361144 10471 9340341b18ea8f398410fe0653390057 "pdflatex"
+  "main.aux" 1699003052 10471 9340341b18ea8f398410fe0653390057 "pdflatex"
   "main.bbl" 1698361086 7704 9c6249ac54d781867aef540c02ef4244 "bibtex main"
-  "main.out" 1698361144 6395 95f7bb74839a2c6aa1400e60f0805355 "pdflatex"
-  "main.tex" 1698361141 50121 2d9de86fb549c8a68b0c4727e63bed8a ""
+  "main.out" 1699003052 6395 95f7bb74839a2c6aa1400e60f0805355 "pdflatex"
+  "main.tex" 1699003049 50124 01957c3c7278af73731163306390a8ae ""
   "vis/batch_size.png" 1698343738 412224 259fa78e335045cd6ed9da2d77e3bab9 ""
   "vis/conf_matr2.png" 1698343738 320724 4bee31f2a28c1eb38393f83e302b5cb7 ""
   "vis/confusion_matr1.pdf" 1698343738 338695 c74db9f80b9b5c6eff8b04a294c17ef0 ""
@@ -175,8 +175,8 @@
   "vis/trainhist.png" 1698351430 384525 dfc8f92adf4c277d9fe6e2d01f6ec51b ""
   (generated)
   "main.out"
-  "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.log"
-  "main.log"
-  "main.pdf"
   "main.aux"
   "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.pdf"
+  "/Users/nickpan/courses/msu/sem-7/my-first-project/paper/main.log"
+  "main.pdf"
+  "main.log"
